@@ -49,7 +49,7 @@ header{
     width: 443px;
     height: 1px;
     border-top: solid 1px;
-    border-color: rgba(255,255,255,0.25); 
+    border-color: #383B4B;
 }
 
 .right-header{
@@ -65,7 +65,7 @@ header{
     width: 30px;
     height: 1px;
     border-top: solid 1px;
-    border-color: rgba(255,255,255,0.25);
+    border-color: #383B4B;
     margin-right: 93px;
 }
 
@@ -159,7 +159,10 @@ h1{
 }
 
 .explore p{
-    font-family: "Bellefair", sans-serif;
-    color: #000000;
+    font-family: 'Bellefair';
+    font-weight: 400;
     font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
 }

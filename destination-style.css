@@ -27,7 +27,7 @@ header{
     width: 1385px;
     height: 96px;
     margin-left: 55px;
-    margin-bottom: 251px;
+    margin-bottom: 76px;
 }
 
 .left-header{
@@ -49,7 +49,7 @@ header{
     width: 443px;
     height: 1px;
     border-top: solid 1px;
-    border-color: rgba(255,255,255,0.25); 
+    border-color: #383B4B;
 }
 
 .right-header{
@@ -65,7 +65,7 @@ header{
     width: 30px;
     height: 1px;
     border-top: solid 1px;
-    border-color: rgba(255,255,255,0.25);
+    border-color: #383B4B;
     margin-right: 93px;
 }
 
@@ -114,7 +114,6 @@ header{
 main{
     margin: 0 165px;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 }
 
@@ -124,9 +123,25 @@ main{
     background-image: url('image-moon.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 65px;
+    margin-right: 157px;
 }
 
-.main-text h4{
+.pick{
+    margin-left: 166.5px;
+    margin-bottom: 64px;
+}
+
+.pick span{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.pick h4{
     color: #FFFFFF;
     font-weight: 300;
     font-size: 28px;
@@ -134,35 +149,134 @@ main{
     letter-spacing: 4px;
 }
 
-h1{
-    font-family: "Bellefair", sans-serif;
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 150px;
-    margin-bottom: 24px;
+.destination-text{
+    width: 445px;
+    height: 472px;
 }
 
-.main-text p{
-    font-family: "Barlow", sans-serif;
-    color: #FFFFFF;
-    font-weight: 100;
-    font-size: 18px;
-    letter-spacing: .00001em;
-    line-height: 32px;
-}
-
-.explore{
-    width: 274px;
-    height: 274px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
+.planets{
+    width: 285.5px;
+    height: 34px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.planets h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+
+.moon{
+    border-bottom: solid 2px #FFFFFF;
+    height: 34px;
+    display: flex;
     align-items: center;
 }
 
-.explore p{
+.moon h6{
+    margin-bottom: -2px;
+}
+
+.moon:hover{
+    cursor: pointer;
+}
+
+.mars{
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.mars:hover{
+    cursor: pointer;
+}
+
+.europa{
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.europa:hover{
+    cursor: pointer;
+}
+
+.titan{
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.titan:hover{
+    cursor: pointer;
+}
+
+.destination-title{
+    width: 333px;
+    height: 115px;
+    margin-bottom: 14px;
+}
+
+.destination-title h1{
     font-family: "Bellefair", sans-serif;
-    color: #000000;
-    font-size: 32px;
+    height: 115px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+}
+
+.destination-info{
+    width: 444px;
+    height: 128px;
+    margin-bottom: 54px;
+}
+
+.destination-info p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.line-3{
+    width: 444px;
+    height: 1px;
+    border-top: solid 1px;
+    border-color: #383B4B;
+    margin-bottom: 28px;
+}
+
+.distance-and-time{
+    display: flex;
+    width: 445px;
+    height: 61xp;
+}
+
+.distance{
+    margin-right: 79px;
+}
+
+.distance-and-time h6{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2.3625px;
+    color: #D0D6F9;
+}
+
+.distance-and-time p{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
 }
