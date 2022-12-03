@@ -10,7 +10,7 @@
 .body-div{
     width: 100vw;
     height: 100vh;
-    background-image: url("space-background.png");
+    background-image: url("background-destination.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -82,18 +82,18 @@ header{
     font-size: 16px;
 }
 
-.home{
+.destination{
     border-bottom: solid 2px #FFFFFF;
     height: 96px;
     display: flex;
     align-items: center;
 }
 
-.home h6{
+.destination h6{
     margin-bottom: -3px;
 }
 
-.destination{
+.home{
     height: 96px;
     display: flex;
     align-items: center;
@@ -118,9 +118,12 @@ main{
     align-items: flex-end;
 }
 
-.main-text{
-    width: 455px;
-    height: 382px;
+.destination-image{
+    width: 445px;
+    height: 445px;
+    background-image: url('image-moon.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .main-text h4{

@@ -18,7 +18,7 @@ function setStyle () {
 }
 
 function setHtml () {
-    $(selectors.bigDiv).remove();
+
 
 }
 
