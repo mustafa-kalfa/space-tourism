@@ -10,7 +10,7 @@
 .body-div{
     width: 100vw;
     height: 100vh;
-    background-image: url("space-background.png");
+    background-image: url("background-crew.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ header{
     width: 1385px;
     height: 96px;
     margin-left: 55px;
-    margin-bottom: 251px;
+    margin-bottom: 62px;
 }
 
 .left-header{
@@ -83,14 +83,9 @@ header{
 }
 
 .home{
-    border-bottom: solid 2px #FFFFFF;
     height: 96px;
     display: flex;
     align-items: center;
-}
-
-.home h6{
-    margin-bottom: -3px;
 }
 
 .destination{
@@ -103,6 +98,11 @@ header{
     height: 96px;
     display: flex;
     align-items: center;
+    border-bottom: solid 2px #FFFFFF;
+}
+
+.crew h6{
+    margin-bottom: -2px;
 }
 
 .technology{
@@ -112,66 +112,124 @@ header{
 }
 
 main{
-    margin: 0 165px;
+    margin: 0 137px 0 166.5px;
+    width: 1138px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .main-text{
-    width: 455px;
-    height: 382px;
+    width: 500px;
+    padding-top: 14px;
 }
 
 .main-text h4{
     color: #FFFFFF;
     font-weight: 300;
     font-size: 28px;
-    margin-bottom: 34px;
+    margin-bottom: 154px;
     letter-spacing: 4px;
 }
 
+
+.main-text span{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-right: 18px;
+}
+
 h1{
-    font-family: "Bellefair", sans-serif;
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 150px;
-    margin-bottom: 24px;
-}
-
-.main-text p{
-    font-family: "Barlow", sans-serif;
-    color: #FFFFFF;
-    font-weight: 100;
-    font-size: 18px;
-    letter-spacing: .00001em;
-    line-height: 32px;
-}
-
-.explore-container{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.explore{
-    width: 274px;
-    height: 274px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.explore p{
     font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.rank{
+    font-family: 'Bellefair', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    letter-spacing: 2px;
-    color: #0B0D17;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.crew-info{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    width: 444px;
+    margin-bottom: 120px;
+}
+
+.slider-points{
+    width: 132px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.point1{
+    width: 15px;
+    height: 15px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.point1:hover{
+    cursor: pointer;
+}
+
+.point2{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, .17);
+    border-radius: 50%;
+}
+
+.point2:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.point3{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, .17);
+    border-radius: 50%;
+}
+
+.point3:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.point4{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, .17);
+    border-radius: 50%;
+}
+
+.point4:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.main-image{
+    width: 518px;
+    height: 712px;
+    background-image: url('image-douglas-hurley.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

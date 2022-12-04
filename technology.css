@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Barlow Condensed", sans-serif;
+    }
+
+.body-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background-technology.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 1440px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    width: 1385px;
+    height: 96px;
+    margin-left: 55px;
+    margin-bottom: 76px;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    width: 555px;
+    height: 100%;
+}
+
+.oval{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+    margin-right: 64px;
+}
+
+.line{
+    width: 443px;
+    height: 1px;
+    border-top: solid 1px;
+    border-color: #383B4B;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    width: 830px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255, 0.05);
+}
+
+.line-2{
+    width: 30px;
+    height: 1px;
+    border-top: solid 1px;
+    border-color: #383B4B;
+    margin-right: 93px;
+}
+
+.navigation{
+    display: flex;
+    width: 542px;
+    justify-content: space-between;
+    margin-right: 165px;
+}
+
+.navigation h6{
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.home{
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.destination{
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.crew{
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.technology h6{
+    margin-bottom: -2px;
+}
+
+.technology{
+    height: 96px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #FFFFFF;
+}
+
+main{
+    margin: 0 137px 0 166.5px;
+    width: 1275px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    width: 500px;
+    padding-top: 14px;
+}
+
+.main-text h4{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 137px;
+    letter-spacing: 4px;
+}
+
+.main-text span{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-right: 18px;
+}
+
+.technology-info{
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-points{
+    width: 80px;
+    height: 304px;
+    margin-right: 80px;
+}
+
+.point1{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point2{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.point3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.point1 p{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+}
+
+.point2 p{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.point3 p{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+h1{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.point1:hover{
+    cursor: pointer;
+}
+
+.point2:hover{
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+
+.point3:hover{
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+
+.terminology{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    margin-bottom: 11px;
+}
+
+.technology-info h1{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.terminology-info{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.main-image{
+    width: 515px;
+    height: 527px;
+    background-image: url('image-launch-vehicle-portrait.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
